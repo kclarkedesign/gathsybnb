@@ -78,6 +78,7 @@ jQuery(function ()
     <h3>Rent from over 20 fake users</h3>
   <!-- <form action="<%= spaces_url %>" class="group" id="root-page-search-bar"> -->
   <form action="<%= spaces_url %>" method="get" name="form_demo" id="anything" enctype="multipart/form-data" onsubmit="return false;">
+    <input class="text-input input-large" type="text-input" name="space_filters[city]" value="" id="root-page-search-bar"/ placeholder="Search">
 <!-- <form action="#" class="group" id="rpsb"> -->
       <%= tag "input", type: "text-input",
                 placeholder: "What city are you booking in? (NYC suggested)",
