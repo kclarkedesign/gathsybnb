@@ -55,17 +55,20 @@ jQuery(function ()
     <h3>Rent from over 20 fake users</h3>
   <form action="<%= spaces_url %>" class="group" id="root-page-search-bar"> -->
 
-<form action="<%= spaces_url %>" method="get" name="form_demo" id="anything" enctype="multipart/form-data" onsubmit="return false;">
+<!-- <form action="<%= spaces_url %>" method="get" name="form_demo" id="anything" enctype="multipart/form-data" onsubmit="return false;">
 <form action="#" class="group" id="root-page-search-bar">
 
 <input class="text-input input-large" type="text" name="space_filters[city]" value="" id="search" placeholder="Search">
 </form>
 </div>
- </div>
+ </div> -->
 <!-- <form action="<%= spaces_url %>" method="get" name="form_demo" id="anything" enctype="multipart/form-data" onsubmit="return false;">
 <input class="group" type="text" name="ff_nm_from[]" value="" id="header-search-input"/ placeholder="Search">
 </form> -->
 
+<form action="<%= spaces_url %>" method="get" name="form_demo" id="anything" enctype="multipart/form-data" onsubmit="return false;">
+<input class="group text-input input-large" type="text" name="space_filters[city]" value="" id="root-input-city-name"/ placeholder="Search">
+</form>
 
 
 
